@@ -1,8 +1,8 @@
 /*! angular-highlightjs
 version: 0.4.1
 build date: 2015-04-07
-author: Chih-Hsuan Fan � Updated by Gabriel Zeck for Styledeer
-https://github.com/pc035860/angular-highlightjs.git */
+author: Chih-Hsuan Fan - Updated by Gabriel Zeck for Styledeer
+https://github.com/gabezeck/angular-highlightjs */
 
 /* commonjs package manager support (eg componentjs) */
 if (typeof module !== "undefined" && typeof exports !== "undefined" && module.exports === exports){
