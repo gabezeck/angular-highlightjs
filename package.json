@@ -1,6 +1,6 @@
 {
   "name": "angular-styledeer-highlightjs",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "A fork of angular-highlightjs by pc035860 for use in Styledeer",
   "main": "./build/angular-styledeer-highlightjs.js",
   "directories": {},
