@@ -1,6 +1,6 @@
 /*! angular-styledeer-highlightjs
-version: 0.4.1
-build date: 2015-04-16
+version: 0.4.2
+build date: 2015-05-05
 author: Chih-Hsuan Fan - Updated by Gabriel Zeck for Styledeer
 https://github.com/gabezeck/angular-highlightjs */
 
@@ -160,7 +160,7 @@ hljsDir = ['$compile', '$parse', function ($compile, $parse) {
                 staticText = tElm[0].textContent.replace(/^(\r\n|\r|\n)/m, '').replace(/(\s)+$/g, '');
 
             // put template
-            tElm.after('<div class="sd-codeblock"><pre><code class="hljs"></code></pre></div>');
+            tElm.after('<div class="sd-codeblock"><div class="sd-codeblock__head"><h3>HTML</h3></div><pre><code class="hljs"></code></pre></div>');
 
             return function postLink(scope, iElm, iAttrs, ctrl) {
                 var compileCheck, escapeCheck;
